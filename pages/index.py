@@ -19,7 +19,9 @@ column1 = dbc.Col(
             #### How much is your property worth?
             
             
-            This app is built to help hosts predict the price of their listing daily.
+            This app is built to help hosts predict the price of their daily rental price. Please
+            fill out the form as accurately as possible. We will compare similar properties and
+            provide you with the best estimate for the daily rental price. 
             """,
             style={'fontFamily':'Verdana', 'fontWeight': 'normal', 'fontSize': 'smaller'}
         ),
