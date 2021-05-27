@@ -3,7 +3,7 @@ AirBnB dataset is being utilised to perform prediction on best estimate for dail
 
 It is a regression problem.
 
-The model training is in the notebooks.
+The model training is in the assets.
 
 A dash app has been made and hosted on heroku.
 
