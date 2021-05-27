@@ -15,6 +15,7 @@ numpy = "*"
 joblib = "*"
 category-encoders = "*"
 scikit-learn = "*"
+dash-daq = "*"
 
 [requires]
 python_version = "3"
