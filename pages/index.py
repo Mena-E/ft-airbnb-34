@@ -16,29 +16,33 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
-
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
-
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
-
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
-
-            """
+            #### How much is your property worth?
+            
+            
+            This app is built to help hosts predict the price of their listing daily.
+            """,
+            style={'fontFamily':'Verdana', 'fontWeight': 'normal', 'fontSize': 'smaller'}
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
-    ],
-    md=4,
-)
+        dcc.Link(dbc.Button('Predict That Price', color='primary'), href='/predictions'),
 
-gapminder = px.data.gapminder()
-fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size="pop", color="continent",
-           hover_name="country", log_x=True, size_max=60)
+    ],
+    md=6,
+)
 
 column2 = dbc.Col(
     [
-        dcc.Graph(figure=fig),
+        html.Img(src='https://images.unsplash.com/photo-1621963262756-6836c6c86d27?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=728&q=80', style={'width': '100%'})
     ]
 )
 
 layout = dbc.Row([column1, column2])
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
