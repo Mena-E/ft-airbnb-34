@@ -130,7 +130,7 @@ column1 = dbc.Col([
 
 
 column2 = dbc.Col([
-            dcc.Markdown("##### Number of Bedrooms", className='mb-1'),
+            dcc.Markdown("###### Number of Bedrooms", className='mb-1'),
             daq.NumericInput(
                 id='bedrooms', 
                 min=0,
@@ -139,7 +139,7 @@ column2 = dbc.Col([
                 className='mb-4',
             ),
 
-            dcc.Markdown("##### Number of Beds", className='mb-1'),
+            dcc.Markdown("###### Number of Beds", className='mb-1'),
             daq.NumericInput(
                 id='beds',
                 min=0,
@@ -148,7 +148,7 @@ column2 = dbc.Col([
                 className='mb-4',
             ),
 
-            dcc.Markdown("##### Number of Bathrooms", className='mb-1'),
+            dcc.Markdown("###### Number of Bathrooms", className='mb-1'),
 	        daq.NumericInput(
                 id='bathrooms',
                 min=0,
