@@ -36,13 +36,3 @@ column2 = dbc.Col(
 )
 
 layout = dbc.Row([column1, column2])
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
