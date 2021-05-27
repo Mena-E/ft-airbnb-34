@@ -1,7 +1,9 @@
 
-AirBnB dataset is being utilised to perfom prediction on best estimate for daily rental price on AirBnB.
+AirBnB dataset is being utilised to perform prediction on best estimate for daily rental price on AirBnB.
 
-It is a classification problem. The model training is in the notebooks.
+It is a regression problem.
+
+The model training is in the notebooks.
 
 A dash app has been made and hosted on heroku.
 
