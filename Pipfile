@@ -16,6 +16,7 @@ joblib = "*"
 category-encoders = "*"
 scikit-learn = "*"
 dash-daq = "*"
+brotli= "==1.0.9"
 
 [requires]
 python_version = "3"
